@@ -1,0 +1,23 @@
+.cell-center {
+  text-align: center;
+}
+.cell-center > * {
+  margin: 0 auto;
+}
+
+.cell-right {
+  text-align: right;
+}
+.cell-right > * {
+  margin: 0 0 0 auto;
+}
+
+.tansition-class-initial {
+  max-height: 0;
+  transition: max-height 0.8s ease-out;
+  overflow: hidden;
+}
+.tansition-class-open {
+  max-height: 188px;
+  transition: max-height 0.8s ease-in;
+}
